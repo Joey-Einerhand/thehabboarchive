@@ -1,0 +1,26 @@
+header {
+    background-image: url('../assets/images/header_background.png');
+    z-index: 6;
+}
+
+.md-tabs {
+    background-color: transparent !important;
+}
+
+.md-header__topic span.md-ellipsis {
+    paint-order: stroke fill;
+    -webkit-text-stroke: 5px white;
+    padding: 0 5px 0 5px;
+}
+
+.md-search__input {
+    background: #0000004d !important;
+}
+
+.md-search__input::placeholder {
+    color: black !important;
+}
+
+.discordiframe {
+    margin-left: 10px;
+}

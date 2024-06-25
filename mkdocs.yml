@@ -1,0 +1,107 @@
+site_name: Habbo Archive
+site_url: https://habboarchive.com
+theme:
+  name: material
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+      primary: white
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+      primary: white
+  custom_dir: overrides
+  logo: assets/logohorizontal.png
+  icon:
+    repo: fontawesome/brands/github
+  language: en
+  features:
+    - search.suggest
+    - search.share
+    - navigation.indexes
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - toc.follow
+    - navigation.top
+    - content.tooltips
+    - content.code.copy
+
+
+plugins:
+    - search
+    - privacy
+    - blog:
+        blog_toc: true
+        archive_date_format: MMMM yyyy
+        categories_allowed:
+            - Server Management
+            - Tutorials
+    - tags:
+        tags_file: blog/tags.md
+    - social:
+        cards_layout_options:
+          background_color: "#B8383B"
+    - rss:
+        categories:
+          - categories
+          - tags
+
+
+nav:
+  - Home: index.md
+  - Tutorials:
+      - tutorials/stacking.md
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/discord 
+      link: https://discord.gg/5u2VDQM2eV
+
+extra_css:
+  - stylesheets/extra.css
+
+hooks:
+  - hooks/socialmedia.py
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - toc:
+      permalink: true
+  - abbr
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - footnotes
+  - tables
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - md_in_html
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+copyright: The Habbo Archive is not affiliated with, endorsed, sponsored, or specifically approved by Sulake Oy or its Affiliates. The Habbo Archive may use the trademarks and other intellectual property of Habbo, which is permitted under Habbo Fan Site Policy
