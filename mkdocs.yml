@@ -59,6 +59,8 @@ nav:
   - Home: index.md
   - Tutorials:
       - tutorials/stacking.md
+  - Cool links:
+      - partner-websites/community-links.md
 
 extra:
   generator: false

@@ -8,7 +8,7 @@ The Habbo Archive is a fansite with the goal to display Habbo Hotel's rich histo
 
 The site is currently a work in progress!
 Looking to contribute, or want to hang out? Join or discord!
-We frequently hang out in Habbo: Origins as well :)
+Alternatively, check out some cool [Habbo (Origins) related links](partner-websites/partners/#cool-links), for example check out the website <span class=gold_text>[:fontawesome-regular-star: Origins Tracker!](partner-websites/community-links/#1-origins-tracker)</span>
 
 
 
