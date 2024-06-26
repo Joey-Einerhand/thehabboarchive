@@ -69,7 +69,7 @@ extra:
       link: https://discord.gg/5u2VDQM2eV
 
 extra_css:
-  - stylesheets/extra.css
+  - stylesheets/extra.css?v=1.1
 
 hooks:
   - hooks/socialmedia.py
