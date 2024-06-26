@@ -13,6 +13,12 @@ header {
     padding: 0 5px 0 5px;
 }
 
+.md-tabs__list .md-tabs__link {
+    paint-order: stroke fill;
+    -webkit-text-stroke: 3px white;
+    padding: 0 5px 0 5px;
+}
+
 .md-search__input {
     background: #0000004d !important;
 }
@@ -24,3 +30,14 @@ header {
 .discordiframe {
     margin-left: 10px;
 }
+
+.discord-reference {
+    color: #7e56c2 !important;
+}
+
+.gold_text {
+    color: #ffc105;
+}
+
+.gold_text a {
+    color: #ffc105;
